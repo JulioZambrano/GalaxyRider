@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>GalaxyRider</title>
+        <vendor>Zambrano</vendor>
+        <homepage href=""/>
+        <description>GalaxyRider</description>
+        <description kind="short">GalaxyRider</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="GalaxyRider.jar" main="true"/>
+    </resources>
+    <application-desc main-class="Game.GameFrame">
+    </application-desc>
+</jnlp>
